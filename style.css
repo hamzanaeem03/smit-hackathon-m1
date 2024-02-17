@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body , html{
+    height: 100%;
+    width: 100%;
+}
+
+
+#wrapper-container{
+    height: 100%;
+    width: 100%;
+    /* background-color:  gold; */
+}
+
+.site-nav-menu{
+    align-items: center;
+justify-content: center;   
+    display: flex;
+
+    flex-direction: row;
+}
+
+.site-nav-menu li {
+font-weight: bold;
+font-size: 18px;
+list-style-type: none;
+padding-right: 20px;
+    text-decoration: none;
+    /* color:  */
+}
+
+
+.site-nav{
+    align-items: center;
+    justify-content: space-between;
+    background-color:  gold;
+    height: 100px;
+display: flex;
+flex-direction: row;
+
+}
